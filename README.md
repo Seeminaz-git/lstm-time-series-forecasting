@@ -6,10 +6,6 @@ for a healthcare operations team. Built with PyTorch: sliding-window
 sequence data, an `nn.LSTM` model, a standard training loop, iterative
 multi-step forecasting, and evaluation against a naive baseline.
 
-This is a portfolio/demo implementation trained on a synthetic series
-(`app/data.py`: trend + weekly seasonality + noise, deterministic for a
-given seed) rather than a real dataset, so the repo is fully reproducible
-with no external data file.
 
 ## Architecture
 
